@@ -10,9 +10,9 @@ Assaf Sardi - backend: Node.js + express, frontend: Vite + React, DB: MySQL
 ```
 
 ```shell
-  CREATE DATABASE db_name;
+  CREATE DATABASE node_db;
 
-  USE db_name;
+  USE node_db;
 
   CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
